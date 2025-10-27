@@ -1,0 +1,2 @@
+This document explains the working of the Smart Animal-Alert Fence System.
+Add your implementation details here.

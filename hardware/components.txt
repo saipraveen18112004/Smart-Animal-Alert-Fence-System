@@ -1,0 +1,8 @@
+List of components:
+- Arduino UNO
+- IR Sensor
+- Ultrasonic Sensor
+- SIM800L Module
+- Servo Motor
+- Buzzer
+- LDR Sensor
