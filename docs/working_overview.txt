@@ -1,2 +1,12 @@
 This document explains the working of the Smart Animal-Alert Fence System.
 Add your implementation details here.
+SmartFence++ - Working Overview
+
+1. Sensors (IR, PIR, Ultrasonic, LDR, DHT11) continuously monitor the field.
+2. When movement is detected, ESP32-CAM captures the image.
+3. YOLO model classifies the object as Animal or Human.
+4. If Animal detected:
+   - Relay triggers deterrents: LED, Buzzer, Water Pump.
+   - SIM800L sends an SMS to the farmer.
+   - Data is logged for analysis.
+5. If no threat detected, system resets to standby mode.
