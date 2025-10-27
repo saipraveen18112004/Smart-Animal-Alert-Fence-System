@@ -1,8 +1,21 @@
-List of components:
-- Arduino UNO
-- IR Sensor
-- Ultrasonic Sensor
-- SIM800L Module
-- Servo Motor
-- Buzzer
-- LDR Sensor
+# SmartFence++ - Hardware Components
+
+1. **ESP32 Controller** – Main processing unit for sensors and deterrents.
+2. **ESP32-CAM Module** – Captures images and sends them for YOLO detection.
+3. **PIR Sensor** – Detects animal movement.
+4. **IR Sensor** – Detects obstacle presence near fence.
+5. **Ultrasonic Sensor** – Measures distance to moving objects.
+6. **LDR Sensor** – Detects lighting conditions for night operation.
+7. **DHT11 Sensor** – Reads temperature and humidity data.
+8. **Relay Module (4-Channel)** – Controls LED, buzzer, water pump, ultrasonic repeller.
+9. **LED Lights / Light Strip** – Flash deterrent for animals.
+10. **Buzzer / Siren** – Sound deterrent.
+11. **Water Pump / Sprayer** – Physical deterrent for large animals.
+12. **Ultrasonic Animal Repeller** – Emits high-frequency sound to repel animals.
+13. **SIM800L Module** – Sends SMS alerts to farmers.
+14. **Wi-Fi Module (ESP32 Built-in)** – Optional cloud data and notifications.
+15. **Solar Panel (12V / 10W)** – Converts sunlight to electrical energy.
+16. **Charging Controller** – Manages battery charging and solar power flow.
+17. **Battery (12V / 7Ah)** – Provides power backup for nighttime operation.
+18. **Manual Reset Button** – Resets the system after an event.
+19. **Data Logger Module** – Stores event and image data for monitoring.
